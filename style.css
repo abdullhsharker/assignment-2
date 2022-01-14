@@ -66,7 +66,6 @@ body{
     background-color: #E02C6D;
     color: white;
    border: none;
-   
    padding: 10px 30px;
    border-radius: 35px;
    font-size: 16px;
@@ -83,14 +82,14 @@ body{
 }
 .box{
     border: 1px solid silver;
-    width: 1110px;
+    width: 1047px;
     height: 110px;
     margin: 70px auto 0px;
     
 }
 .icon img{
     width: 55px;
-    margin: 30px 48px 30px;
+    margin: 35px 45px;
 
 }
 
@@ -151,5 +150,15 @@ body{
 }
 .info p{
     margin: 0px;
+}
+.another-button{
+    background-color: whitesmoke;
+    color: #E02C6D;
+    float: right;
+    margin-right: 410px;
+    border: none;
+   padding: 10px 30px;
+   border-radius: 35px;
+   font-size: 20px;
 }
 
