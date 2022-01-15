@@ -1,10 +1,9 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Be+Vietnam+Pro&family=Bebas+Neue&family=Lobster&family=Poppins:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
 /* for all */
-/* *{
-    margin: 0;
-    padding: 0;
-} */
+*{
+    /* box-sizing: border-box; */
+}
 body{
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
@@ -78,7 +77,7 @@ body{
 
 /* right-section */
 .section-right{
-    transition: transform 3s linear;
+    transition: transform 2s linear;
 }
 .section-right img{
     background-image: url(images/Circle\ design.svg);
@@ -258,4 +257,37 @@ footer{
     border: 10px solid grey;
 
 }
-
+/*-------------
+ mobile responsive
+ ------------ */
+ /* for tablet */
+@media (max-width:768px) {
+    .frist-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-left{
+        margin-bottom: 50px;
+    }
+    .popular-collection{
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        margin-left: 40px;
+    }
+    .contac-sec{
+        margin-top: 1000px;
+        width:90%;
+    }
+    .cotact-section{
+        width: 100%;
+    }
+    .box-icon{
+        width: 100%;
+    }
+    footer{
+      
+    }
+    
+}
+/* big mobile */
+@media (max-width:768px)
