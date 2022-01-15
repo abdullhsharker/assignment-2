@@ -72,7 +72,8 @@ body{
 }
 /* animation */
 .section-right:hover{
-    transform: rotate(360deg);
+    transform: scale(1.1);
+    animation-iteration-count: infinite;
 }
 
 /* right-section */
