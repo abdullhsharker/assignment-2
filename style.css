@@ -50,7 +50,8 @@ body{
 
 /* section-left */
 .section-left{
-    width: 582px;
+    width: 580px;
+    margin-left: 150px;
 
 }
 .section-left h1{
@@ -70,11 +71,20 @@ body{
    border-radius: 35px;
    font-size: 16px;
 }
+/* animation */
+.section-right:hover{
+    transform: rotate(360deg);
+}
 
 /* right-section */
+.section-right{
+    transition: transform 3s linear;
+}
 .section-right img{
     background-image: url(images/Circle\ design.svg);
     width: 475px;
+    margin-right: 100px;
+    
 }
 /* box icon */
 .box-icon{
@@ -84,7 +94,7 @@ body{
     border: 1px solid silver;
     width: 1047px;
     height: 110px;
-    margin: 70px auto 0px;
+    margin: 150px auto 0px;
     
 }
 .icon img{
@@ -124,6 +134,7 @@ body{
 }
 .collection img{
     margin: 15px;
+    border-radius: 10px;
 }
 .collection h2{
     font-size: 28px;
