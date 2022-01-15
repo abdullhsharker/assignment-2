@@ -274,8 +274,11 @@ footer{
         width: 100%;
         margin-left: 40px;
     }
+    .collection{
+        margin: 30px;
+    }
     .contac-sec{
-        margin-top: 1000px;
+        margin-top: 1220px;
         width:90%;
     }
     .cotact-section{
@@ -293,15 +296,20 @@ footer{
 @media (max-width:700px){
     .popular-collection{
         width: 100%;
+        
+    }
+    .collection{
+        margin: 30px;
     }
     .footer{
        margin: 0 auto;
     }
     .contac-sec{
         width: 100%;
+        margin-top: 1400px;
     }
 }
-@media (max-width:576px){
+@media (max-width:578px){
     .frist-section{
         width: 100%;
     }
@@ -315,7 +323,7 @@ footer{
         margin-bottom: 30px;
     }
     .contac-sec{
-        margin-top: 3300px;
+        margin-top: 3500px;
         width: 100%;
         padding: 50px;
         display: flex;
